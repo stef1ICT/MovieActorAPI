@@ -1,0 +1,51 @@
+﻿@model MAInformation.MVC.Models.ActorListAndMovieRelationDataModel 
+
+@{
+    ViewData["Title"] = "AddActorToMovie";
+}
+
+<h1>AddActorToMovie</h1>
+
+<h4>MovieAndActorRelationDTO</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="ActorToMovie" method="post">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+        
+            <div class="form-group">
+                <label asp-for="MovieId" class="control-label"></label>
+                <input asp-for="MovieId" class="form-control" />
+                <span asp-validation-for="ActorId" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="ActorId" class="control-label"></label>
+                <select asp-for="ActorId">
+                    @foreach(var item in Model.actors)
+                    {
+                        <option value="@item.Id">@item.FirstName @item.LastName</option>
+                    }
+                </select>
+                <div class="form-group">
+                    <label asp-for="NameInMovie" class="control-label"></label>
+                    <input asp-for="NameInMovie" class="form-control" />
+                    <span asp-validation-for="NameInMovie" class="text-danger"></span>
+                </div>
+
+
+                <span asp-validation-for="ActorId" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
