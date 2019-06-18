@@ -1,9 +1,0 @@
-C:\Users\Dell E6540\Desktop\ProjekatASP\ProjekatASP\MAInformation.Domain\bin\Debug\netcoreapp2.2\MAInformation.Domain.deps.json
-C:\Users\Dell E6540\Desktop\ProjekatASP\ProjekatASP\MAInformation.Domain\bin\Debug\netcoreapp2.2\MAInformation.Domain.dll
-C:\Users\Dell E6540\Desktop\ProjekatASP\ProjekatASP\MAInformation.Domain\bin\Debug\netcoreapp2.2\MAInformation.Domain.pdb
-C:\Users\Dell E6540\Desktop\ProjekatASP\ProjekatASP\MAInformation.Domain\obj\Debug\netcoreapp2.2\MAInformation.Domain.csprojAssemblyReference.cache
-C:\Users\Dell E6540\Desktop\ProjekatASP\ProjekatASP\MAInformation.Domain\obj\Debug\netcoreapp2.2\MAInformation.Domain.csproj.CoreCompileInputs.cache
-C:\Users\Dell E6540\Desktop\ProjekatASP\ProjekatASP\MAInformation.Domain\obj\Debug\netcoreapp2.2\MAInformation.Domain.AssemblyInfoInputs.cache
-C:\Users\Dell E6540\Desktop\ProjekatASP\ProjekatASP\MAInformation.Domain\obj\Debug\netcoreapp2.2\MAInformation.Domain.AssemblyInfo.cs
-C:\Users\Dell E6540\Desktop\ProjekatASP\ProjekatASP\MAInformation.Domain\obj\Debug\netcoreapp2.2\MAInformation.Domain.dll
-C:\Users\Dell E6540\Desktop\ProjekatASP\ProjekatASP\MAInformation.Domain\obj\Debug\netcoreapp2.2\MAInformation.Domain.pdb
